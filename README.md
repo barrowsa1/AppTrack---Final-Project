@@ -82,7 +82,7 @@ The goal of AppTrack is to make the job search process easier to manage by keepi
    ```
 3. Run the container:
    ```bash
-   docker run --name apptrack-frontend-container -d -p 8080:80 apptrack-frontend
+   docker run --name apptrack-frontend-container -d -p 8080:8080 apptrack-frontend
    ```
 4. Open `http://localhost:8080` in your browser.
 
